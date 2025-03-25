@@ -9,13 +9,18 @@ Ou 3x de: R$20,00
 =========================
 */
 
-let preço = 60
-let aVista = 10
-let totalAvista = 0
+
+ let preço = 60
+ let aVista = 10 // por cento//
+ let totalAvista = 0
 
  totalAvista = (preço - (aVista / 100) * preço)
- console.log(`Preço: R$: ${preço},00`);
- console.log(`Ávista: R$ ${totalAvista},00`);
- console.log(`Ou 3x de: R$ ${preço / 3},00`);
+
+ console.log(`Preço: ${preço},00`);
+ console.log(`Preço com desconto: R$ ${totalAvista}`);
+ console.log(`Ou 3x de: R$: ${preço / 3},00`);
+ 
+ 
+
  
  
